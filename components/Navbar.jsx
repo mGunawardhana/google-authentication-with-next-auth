@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="p-4 flex justify-between items-center shadow-xl">
+    <div className="p-3 flex justify-between items-center shadow-inner mt-8 rounded-xl bg-slate-100">
       <Link className="font-bold text-lg text-blue-700" href={"/"}>
         mGunawardhana
       </Link>
